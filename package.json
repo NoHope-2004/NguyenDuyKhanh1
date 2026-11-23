@@ -1,0 +1,12 @@
+{
+  "name": "vlxd-hub-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VLXD Hub - Ứng dụng di động phân phối Vật liệu Xây dựng & Tư vấn AI",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix mobile --legacy-peer-deps",
+    "seed": "npm run seed --prefix backend",
+    "backend": "npm start --prefix backend",
+    "mobile": "npm start --prefix mobile"
+  }
+}
